@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;;
+    line-height: 2;
+    text-align: justify;
+    height: 100%;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,184,255,0.43463322829131656) 46%, rgba(0,245,255,0.3786108193277311) 100%);
+    color: white;
+}
+
+a {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+    &hover {
+        background-color: lightgrey
+    }
+}
+
+.legend {
+    font-weight: 700;
+    color: black
+
+}
+
+/* CAROUSEL */
+
+.carouselImagenes {
+    width: 50%;
+    margin: 0 auto;
+    animation-duration: initial;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: -1;
+}
+
+.asideSpan {
+    font-weight: 700;
+    display: block;
+    font-size: 50px;
+    margin: 50px;
+    padding: 20px;
+    border: solid 2px whitesmoke;
+}
+
+.tituloParrafo {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.block {
+    margin: 20px;
+    padding: 10px;
+}
